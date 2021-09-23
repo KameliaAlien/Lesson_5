@@ -1,0 +1,215 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+header {
+	background-color: #794;
+}
+.homework {
+	font-style: italic;
+	text-align: center;
+	padding: 20px;
+}
+.homework p {
+	font-size: 24px;
+}
+.homework p span {
+	font-style: normal;
+}
+
+main {
+	background-color: #9966;
+}
+
+.container {
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+h1 {
+	text-align: center;
+	padding: 25px;
+	font-size: 24px;
+	font-weight: 600;
+	letter-spacing: 0.8px;
+	line-height: 1.4;
+	font-family: "Noto Serif", serif;
+}
+
+h2 {
+	font-size: 20px;
+	font-weight: 600;
+	letter-spacing: 0.4px;
+	font-family: "Noto Serif", serif;
+}
+
+h3 {
+	font-size: 18px;
+	font-weight: 700;
+	letter-spacing: 0.4px;
+	margin: 0 0 20px 10px;
+	font-family: "Noto Serif", serif;
+}
+
+.content .game img {
+	max-width: 500px;
+	max-height: 300px;
+	margin-bottom: 15px;
+	margin-top: 10px;
+}
+
+.game {
+	display: inline-block;
+	max-width: 600px;
+	margin-left: 30px;
+	background-color: #9966;
+	max-height: 590px;
+	overflow: auto;
+	margin-bottom: 32px;
+}
+
+p {
+	font-size: 18px;
+	letter-spacing: 0.4px;
+	line-height: 1.2;
+	padding: 10px;
+	text-indent: 10px;
+}
+
+.name {
+	text-align: center;
+}
+
+.partisans {
+	padding: 0px 0px 20px 28px;
+}
+
+.partisans img {
+	display: block;
+	width: 1240px;
+	margin: 15px 0px -190px 0px;
+}
+
+.column {
+	display: inline-block;
+	max-width: 600px;
+}
+
+.add_content {
+	padding: 0 0 20px 0;
+}
+
+.work {
+	margin: 0 0 20px 0;
+}
+
+.hey span {
+	display: block;
+	font-size: 20px;
+	padding: 10px;
+	letter-spacing: 0.4px; 
+}
+
+.block {
+	display: inline-block;
+	background-color: #8914;
+	max-width: 200px;
+	max-height: 200px;
+	padding: 15px;
+	overflow: auto;
+}
+
+.link-item {
+	display: inline-block;
+	margin-bottom: 30px;
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #82d8;
+}
+
+.paragraph p {
+	display: inline-block;
+	font-size: 14px;
+	background-color: #8914;
+	width: 100px;
+	margin: 0px 30px 0px 0px;
+	padding: 10px;
+	vertical-align: top;
+	overflow: auto;
+}
+
+.text {
+	padding: 30px;
+	background-color: #8914;
+}
+
+.text2 {
+	padding: 30px;
+	margin: -150px 0px 0px 0px;
+	background-color: #8914;
+}
+
+.span {
+	display: block;
+	font-size: 22px;
+	line-height: 1.2;
+	max-height: 200px;
+	overflow: auto;
+}
+.span-item {
+	margin: 40px 0 20px 0;
+}
+footer {
+	background-color: #142;
+	text-align: center;
+	padding: 32px;
+}
+
+.freelancer {
+	text-align: center;
+	font-size: 18px;
+	color: #fff;
+}
